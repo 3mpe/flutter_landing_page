@@ -26,9 +26,8 @@ class LandingPage extends StatelessWidget {
         body: Container(
           height: double.infinity,
           width: double.infinity,
-          child: Flexible(
+          child: Container(
             // color: Colors.white,
-            flex: 1,
             child: Stack(
               children: [
                 Positioned(
